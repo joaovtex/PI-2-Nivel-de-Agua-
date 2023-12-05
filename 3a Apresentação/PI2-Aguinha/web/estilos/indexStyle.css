@@ -1,0 +1,62 @@
+@import url('https://fonts.cdnfonts.com/css/fester');
+
+* {
+    margin: 0;
+}
+
+main {
+    background-color: #5d87b9;
+    width: 100%;
+    height: 100%;
+}
+
+.aguinha {
+    font-size: 500%;
+    font-family: 'Fester', sans-serif;
+    color: #90d5e1;
+    position: relative;
+    top: 48%;
+    transform: translateY(-50%);
+    margin-left: 15%;
+}
+
+.botao-1,
+.botao-2,
+.botao-3 {
+    border: none;
+    position: absolute;
+    right: 15%;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.botao-1 {
+    top: 24%;
+}
+
+.botao-2 {
+    top: 44%;
+}
+
+.botao-3 {
+    top: 64%;
+}
+
+.botao-1 .img,
+.botao-2 .img,
+.botao-3 .img {
+    width: 450px;
+    height: 80px;
+    transition: transform 0.5s ease;
+}
+
+.botao-1:hover,
+.botao-2:hover,
+.botao-3:hover {
+    transform: scale(1.1);
+}
+
+.botao-1:hover .img,
+.botao-2:hover .img,
+.botao-3:hover .img {
+    transform: scale(1.1);
+}
